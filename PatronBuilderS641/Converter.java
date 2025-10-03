@@ -17,5 +17,4 @@ public class Converter {
     public String getDocument(){
         return document;
     }
-
 }

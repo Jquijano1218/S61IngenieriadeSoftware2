@@ -1,11 +1,11 @@
-public class Reader {
+public class ReaderI {
     
     //Atributos
     private String element;
-    private Converter converter;
+    private ConverterI converter;
 
     //Constructor de la clase
-    public Reader(String element, Converter converter){
+    public ReaderI(String element, ConverterI converter){
         this.element = element;
         this.converter = converter;
     }
